@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kerala Tourism</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  	<style type="text/css">
+  		#a{ 
+  		color: black;
+  		font-family:cursive;
+  		 }
+  		#a span{
+  			color: green;
+  			font-size: 35px;
+  		}
+  		#b{
+  			background-image: url(images/1.jpg);
+  			background-attachment: scroll;
+  			background-size: 100% 500px;
+  			background-repeat: no-repeat;
+  			height: 500px;
+  			width: 100%;
+
+
+  		}
+  		#c{
+  			color:green;
+  		}
+  		.centered {
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+			}
+		.image{
+			opacity: 1;
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+		.middle
+		 {
+  			transition: .5s ease;
+ 			 opacity: 0;
+ 			 position: absolute;
+  				top: 50%;
+  			left: 50%;
+ 			 transform: translate(-50%, -50%);
+  			-ms-transform: translate(-50%, -50%);
+  			text-align: center;
+		}
+.d{
+  position: relative;
+  width: 100%;
+}
+.d:hover .image {
+  opacity: 0.3;
+}
+
+.d:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: green;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: black;
+   text-align: center;
+}
+  	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  	<div id="a"><a class="navbar-brand" href="#">KERALA TOURISM DEPARTMENT</a></div>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#b">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#g">DISTRICTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#f">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id="b"></div>
+<div class="container-fluid p-5 text-center bg-warning text-white">
+	<h1 class="display-5"><b>EXPERIENCE THE BEAUTY OF KERALA</b></h1>
+        <a href="Login.html" class="btn btn-light" role="button">LOGIN</a>
+ </div>
+  </div>
+</div>
+<div class="container-fluid m-0 p-0" id="g">
+<h1 class="display-5 text-center">DISTRICTS</h1>
+	<div class="row">
+
+		<div class="col-sm-4 m-0 p-0">
+			<div class="d">
+  			<img src="images/2.jpg" height="300px" width="60%" alt="img" class="image" style="width:100%">
+  			<div class="middle">
+			<a href="Alappuzha.html" class="text" role="button">ALAPPUZHA</a>
+  			</div>
+		</div>
+		</div>
+
+		<div class="col-sm-4 m-0 p-0">
+			<div class="d">
+  			<img src="images/kovalam.jpg" height="300px" width="60%" alt="img" class="image" style="width:100%">
+  			<div class="middle">
+			<a href="Trivandrum.html" class="text" role="button">Trivandrum</a>
+  			</div>
+		</div>
+		</div>
+
+		<div class="col-sm-4 m-0 p-0">
+			<div class="d">
+  			<img src="images/kozhikkode.jpg" height="300px" width="60%" alt="img" class="image" style="width:100%">
+  			<div class="middle">
+				<a href="Kozhikkode.html" class="text" role="button">kozhikkode</a>
+  			</div>
+		</div>
+		</div>
+
+	<div class="row">
+		<div class="col-sm-4 m-0 p-0">
+			<div class="d">
+  			<img src="images/Vadakkunnathan-Temple.jpg" height="250px" width="20%" alt="img" class="image" style="width:100%">
+  			<div class="middle">
+			<a href="Thrissur.html" class="text" role="button">THRISSUR</a>
+  			</div>
+		</div>
+		</div>
+
+		<div class="col-sm-4 m-0 p-0">
+			<div class="d">
+  			<img src="images/malappuram.jpg" height="250px" width="30%" alt="img" class="image" style="width:100%">
+  			<div class="middle">
+			<a href="Malappuram.html" class="text" role="button">MALAPPURAM</a>
+  			</div>
+		</div>
+		</div>
+
+		<div class="col-sm-4 m-0 p-0">
+			<div class="d">
+  			<img src="images/palakkad-fort337_b.jpeg" height="250px" width="30%" alt="img" class="image" style="width:100%">
+  			<div class="middle">
+				<a href="Palakkad.html" class="text" role="button">PALAKKAD</a>
+  			</div>
+		</div>
+		</div>
+    <div class="row">
+
+      <div class="col-sm-4 m-0 p-0">
+        <div class="d">
+          <img src="images/PATHANAMTHITTA.jpg" height="300px" width="60%" alt="img" class="image" style="width:100%">
+          <div class="middle">
+			<a href="Pathanamthitta.html" class="text" role="button">PATHANAMTHITTA</a>
+          </div>
+      </div>
+      </div>
+  
+      <div class="col-sm-4 m-0 p-0">
+        <div class="d">
+          <img src="images/KANNUR.jpg" height="300px" width="60%" alt="img" class="image" style="width:100%">
+          <div class="middle">
+			<a href="Kannur.html" class="text" role="button">KANNUR</a>
+          </div>
+      </div>
+      </div>
+  
+      <div class="col-sm-4 m-0 p-0">
+        <div class="d">
+          <img src="images/KASARGOD.jpg" height="300px" width="60%" alt="img" class="image" style="width:100%">
+          <div class="middle">
+			<a href="Kasargode.html" class="text" role="button">KASARGOD</a>
+          </div>
+      </div>
+    </div>
+      <div class="row">
+
+      <div class="col-sm-4 m-0 p-0">
+        <div class="d">
+          <img src="images/idukki.jpg" height="300px" width="50%" alt="img" class="image" style="width:100%">
+          <div class="middle">
+			<a href="Idukki.html" class="text" role="button">IDUKKI</a>
+          </div>
+      </div>
+      </div>
+  
+      <div class="col-sm-4 m-0 p-0">
+        <div class="d">
+          <img src="images/wayanad.png" height="300px" width="50%" alt="img" class="image" style="width:100%">
+          <div class="middle">
+			<a href="Wayanad.html" class="text" role="button">WAYANAD</a>
+          </div>
+      </div>
+      </div>
+  
+      <div class="col-sm-4 m-0 p-0">
+        <div class="d">
+          <img src="images/ernamkulam.jpg" height="300px" width="40%" alt="img" class="image" style="width:100%">
+          <div class="middle">
+		  <a href="Ernamkulam.html" class="text" role="button">ERNAMKULAM</a>
+          </div>
+      </div>
+      </div>
+      <div class="row">
+
+        <div class="col-sm-4 m-0 p-0">
+          <div class="d">
+            <img src="images/kollam.jpeg" height="300px" width="50%" alt="img" class="image" style="width:100%">
+            <div class="middle">
+				<a href="Kollam.html" class="text" role="button">KOLLAM</a>
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-4 m-0 p-0">
+          <div class="d">
+            <img src="images/kottayam.jpeg" height="300px" width="50%" alt="img" class="image" style="width:100%">
+            <div class="middle">
+				<a href="Kottayam.html" class="text" role="button">KOTTAYAM</a>
+            </div>
+        </div>
+        </div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<div class="container">
+<div class="row">
+	<div class="col-sm-7 pt-3" id="f">
+		<h1><span id="c">Contact</span> Us</h1>
+				<form>
+				<div class="form-group">
+    			<label for="name">Name:</label>
+    			<input type="text" class="form-control" placeholder="Enter Name" id="name">
+  				</div>
+  				<div class="form-group">
+    			<label for="number">Number:</label>
+    			<input type="text" class="form-control" placeholder="Enter Number" id="number">
+  				</div>
+  				<div class="form-group">
+    			<label for="email">Email address:</label>
+    			<input type="email" class="form-control" placeholder="Enter email" id="email">
+  				</div>
+  				<div class="form-group">
+    			<label for="sub">Subject:</label>
+    			<input type="text" class="form-control" placeholder="Subject" id="sub">
+  				</div>
+  				<div class="form-group">
+  				<label for="comment">Message:</label>
+  				<textarea class="form-control" rows="5" id="msg"></textarea>
+				</div>
+				<button type="submit" class="btn btn-warning">Submit</button>
+			</form>
+		</div>
+ 
+    <div class="col-sm-5">
+    	<div class="card bg-warning mt-5">
+  <div class="card-body"><h1>Contact Info<i class="far fa-hand-point-down"></i></h1><br>
+  	<h4><i class="fas fa-map-marker-alt"></i> Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
+      <br>
+  		<i class="fas fa-phone"></i> Phone: +91 471 2321132, Fax: +91 471 2322279<br>
+  		<i class="fas fa-envelope-open"></i>  E-mail: info@keralatourism.org.<br>
+	</h4>
+  </div>
+		</div>
+	</div>
+
+  </div>
+</div>
+
+
+<div class="footer">
+	<h1><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i> <i class="fab fa-google-plus"></i></h1>
+	<div id="a">KERALA TOURISM</div>
+
+</div>
+</body>
+</html>
